@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+body {
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+.night {
+  background: radial-gradient(2px 2px at 20% 30%, white, transparent),
+    radial-gradient(2px 2px at 60% 70%, white, transparent),
+    radial-gradient(1px 1px at 50% 50%, white, transparent),
+    radial-gradient(1px 1px at 80% 10%, white, transparent),
+    radial-gradient(2px 2px at 90% 60%, white, transparent),
+    radial-gradient(1px 1px at 33% 80%, white, transparent),
+    radial-gradient(2px 2px at 15% 90%, white, transparent),
+    linear-gradient(to bottom, #000428, #004e92);
+}
+
+.afternoon {
+  background: linear-gradient(to bottom, #ff6b6b, #ffa07a, #87ceeb);
+}
+
+.morning {
+  background: linear-gradient(to bottom, #ff9a56, #ffc371, #87ceeb, #b0e0e6);
+}
+
+.description {
+  text-transform: capitalize;
+}
+
+.climate {
+  text-align: center;
+}
+
+.text-night {
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#search {
+  margin-bottom: 1.5rem;
+  border: none;
+  border-radius: 3rem;
+  padding: 0.8rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.search-city {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 3rem;
+  font-size: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.search-city:hover {
+  cursor: pointer;
+  background-color: #87ceeb;
+  color: #fff;
+}
+
+h3 {
+  margin: 1rem;
+}
+
+h1 {
+  font-size: 10rem;
+}
